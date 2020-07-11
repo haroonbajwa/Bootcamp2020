@@ -28,7 +28,7 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ helloharoon.surge.sh --token $((secret.SURGE_TOKEN))
+      run: surge ./ helloharoon.surge.sh --token $((secrets.SURGE_TOKEN))
 
 
 
